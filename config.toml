@@ -1,34 +1,17 @@
 baseURL = 'https://gtroiani.github.io/'
 languageCode = 'en-us'
 title = 'Giorgia Troiani'
-theme = 'jane'
-
-[author]
-	name = "Giorgia Troiani"
-	url = "/about"
-	
-[[menu.main]]             # config your menu          
-  name = "About me"
-  weight = 10
-  identifier = "about"
-  pageref = "/about"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  pageref = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  pageref = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  pageref = "/categories/"
+theme = 'purehugo'
   
- [params.social]
-    # a-email = "mailto:your@email.com"
-    e-linkedin = "https://www.linkedin.com/in/gtroiani/"
-    g-github = "https://github.com/gtroiani"
+ [params]
+    index = "about me"
+    linkedinName = "gtroiani"
+    githubName = "gtroiani"
+    hideShareOptions = true
+    description = "Linguistics is fun!"
+
+[params.links]
+	"Publications" = "/publications"
+	"CV" = "/cv"
+	"Resources"= "/resources"
+	"Teaching" = "/teaching"
