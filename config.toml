@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://gtroiani.github.io/'
 languageCode = 'en-us'
 title = 'Giorgia Troiani'
 theme = 'jane'
