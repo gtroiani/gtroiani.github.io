@@ -15,3 +15,6 @@ theme = 'purehugo'
 	#"CV" = "/cv"
 	"Resources"= "/resources"
 	"Teaching" = "/teaching"
+	
+[markup.goldmark.renderer]
+	unsafe= true
