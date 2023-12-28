@@ -12,6 +12,6 @@ theme = 'purehugo'
 
 [params.links]
 	"Publications" = "/publications"
-	"CV" = "/cv"
+	#"CV" = "/cv"
 	"Resources"= "/resources"
 	"Teaching" = "/teaching"
